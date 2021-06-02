@@ -3,7 +3,12 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat-Bold";
 }
 
@@ -30,8 +35,12 @@ p {
 
 /* Sections */
 .colored-section {
-  background-color: #f8cc02;
+  background-color: #fdfd96;
   color: #fff;
+}
+
+.colored-seciton:hover {
+  background-color: #fbfb50;
 }
 
 .white-section {
